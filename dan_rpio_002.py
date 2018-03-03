@@ -10,7 +10,7 @@ PWM.init_channel(DMA_CH, SSTime)
 
 PWM.add_channel_pulse(DMA_CH, GPin, 0, 200)
 PWM.add_channel_pulse(DMA_CH, GPin, 250, 50)
-PWM.add_channel_pulse(DMA_CH, GPin, 350, 50)
+PWM.add_channel_pulse(DMA_CH, GPin, 350, 25)
 PWM.add_channel_pulse(DMA_CH, GPin, 450, 50)
 
 time.sleep(5)
