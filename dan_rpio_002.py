@@ -8,10 +8,10 @@ SSTime = 1000000
 PWM.setup(1000,0)
 PWM.init_channel(DMA_CH, SSTime)
 
-PWM.add_channel_pulse(DMA_CH, GPin, 0, 20)
-PWM.add_channel_pulse(DMA_CH, GPin, 25, 5)
-PWM.add_channel_pulse(DMA_CH, GPin, 35, 5)
-PWM.add_channel_pulse(DMA_CH, GPin, 45, 5)
+PWM.add_channel_pulse(DMA_CH, GPin, 0, 200)
+PWM.add_channel_pulse(DMA_CH, GPin, 250, 50)
+PWM.add_channel_pulse(DMA_CH, GPin, 350, 50)
+PWM.add_channel_pulse(DMA_CH, GPin, 450, 50)
 
 time.sleep(5)
 
